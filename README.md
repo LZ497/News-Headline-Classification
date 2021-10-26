@@ -1,6 +1,7 @@
 # News Headline Classification 
 Team members: Keqin Liu, Linpei Zhang, Lu Zhang
 ## 1.Introduction
+NLP applications are very popular in text classification and sentiment analysis. In this project, we want to 
 ## 2.Data Preparation
 ### 2.1 Data Collection
 Data is collected from .... with labels. The dataset is split into 2 parts, 80% training dataset and 20% testing dataset. 
@@ -13,5 +14,7 @@ Data is collected from .... with labels. The dataset is split into 2 parts, 80% 
 ### 3.4 Multinomial Navie Bayes
 ## 4.Model Evaluation
 Accuracy, precision, recall and F1 score are used to evaluate the performance of four models.
+## 5.Biggest Challenges
+
 
 
