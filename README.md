@@ -14,6 +14,7 @@ Data is collected from .... with labels. The dataset is split into 2 parts, 80% 
 A decision tree is a prediction model structured in the form of a tree that is built using recursive splitting of the internal nodes which represents testing on certain features. The branches of the tree represent the outcome of the test and each leaf node denotes the final outputs that are labels in our case. 
 It follows a top-down where the most important feature is located at the top (known as the root node) and the leaves represent corresponding classes/labels. Here, we will be using it to perform the classification of the news headlines.
 ### 3.4 Random Forest
+A random forest is an ensemble classifier that estimates based on the combination of different decision trees. Effectively, it fits a number of decision tree classifiers on various subsamples of the dataset. Also, each tree in the forest built on a random best subset of features. Finally, the act of enabling these trees gives us the best subset of features among all the random subsets of features. 
 ### 3.5 Multinomial Navie Bayes
 ## 4.Model Evaluation
 Accuracy, precision, recall and F1 score are used to evaluate the performance of four models.
