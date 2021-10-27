@@ -25,6 +25,6 @@ Recall = true positive/(true positive +false negative)\
 F1 score = 2 precision * recall/(precision + recall)
 
 ## 5.Biggest Challenges
-
+1. In previous research, the multinomial naive bayes is proved to perform best among all of the models. We want to verify this conclusion in our project.
 
 
