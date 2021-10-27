@@ -9,6 +9,7 @@ Data is collected from .... with labels. The dataset is split into 2 parts, 80% 
 ### 2.3 Feature Extraction: TF-IDF
 ## 3.Model
 The models we leverage can be divided into two types: one is non-neural network and the other is neural network, which is LSTM. Meanwhile, non-neural networks consists of single machine learning models, which includes SVM, Decision Tree, and Multinomial Navie Bayes, and ensemble learning models, which includes random forest based on bagging and GBDT based on boosting.
+<img width="1107" alt="models" src="https://user-images.githubusercontent.com/89560257/139080695-57b6ce7c-2a54-48a5-ae6a-a96142c78ae7.png">
 ### 3.1 SVM
 Support Vector Machine is a supervised machine learning algorithm,which is mostly used in classification problems. In the SVM algorithm, we plot each data item as a point in n-dimensional space (where n is a number of features you have) with the value of each feature being the value of a particular coordinate. Then, we perform classification by finding the hyper-plane that differentiates the two classes very well.
 ### 3.2 Multinomial Navie Bayes
