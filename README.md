@@ -18,7 +18,12 @@ A random forest is an ensemble classifier that estimates based on the combinatio
 ### 3.5 Multinomial Navie Bayes
 Multinomial Naive Bayes algorithm is based on the Bayes theorem. It calculates the probability of each tag for a given sample and then gives the tag with the highest probability as output. The principle of it is each feature being classified is not related to any other feature. The presence or absence of a feature does not affect the presence or absence of the other feature.
 ## 4.Model Evaluation
-Accuracy, precision, recall and F1 score are used to evaluate the performance of four models.
+Accuracy, precision, recall and F1 score are used to evaluate the performance of four models.\
+Accuracy = correct predictions/all predictions\
+Precision = true positive/(true positive + false positive)\
+Recall = true positive/(true positive +false negative)\
+F1 score = 2 precision * recall/(precision + recall)
+
 ## 5.Biggest Challenges
 
 
