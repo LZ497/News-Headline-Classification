@@ -16,6 +16,7 @@ It follows a top-down where the most important feature is located at the top (kn
 ### 3.4 Random Forest
 A random forest is an ensemble classifier that estimates based on the combination of different decision trees. Effectively, it fits a number of decision tree classifiers on various subsamples of the dataset. Also, each tree in the forest built on a random best subset of features. Finally, the act of enabling these trees gives us the best subset of features among all the random subsets of features. 
 ### 3.5 Multinomial Navie Bayes
+Multinomial Naive Bayes algorithm is based on the Bayes theorem. It calculates the probability of each tag for a given sample and then gives the tag with the highest probability as output. The principle of it is each feature being classified is not related to any other feature. The presence or absence of a feature does not affect the presence or absence of the other feature.
 ## 4.Model Evaluation
 Accuracy, precision, recall and F1 score are used to evaluate the performance of four models.
 ## 5.Biggest Challenges
