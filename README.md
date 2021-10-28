@@ -6,7 +6,7 @@ In this project, we would like to explore the application of text classification
 ## 2.Data Preparation
 Data Preparation is an essential step for performing and training different models on data collected as a clean dataset is key to ensuring the accuracy of the models and labeling text classifications. Text classification generally includes data collection, text cleaning, as well as feature extraction using TF-IDF.
 ### 2.1 Data Collection
-For this project, our first option is to collect data from newsapi.org using NewsAPI. Data collected includes news source, news title, news headlines, category and date. The dataset would be split into 2 parts, 80% training dataset and 20% testing dataset. 
+For this project, our first option is to collect data from <a href="newsapi.org">newsapi.org</a> using NewsAPI. Data collected includes news source, news title, news headlines, category and date. The dataset would be split into 2 parts, 80% training dataset and 20% testing dataset. 
 ### 2.2 Text Cleaning
 Data collected using NewAPI is generally clean, as we are only collecting news headlines in the English language, and they are comprised of fully sentences with minimal irregularities. Text cleaning would mostly be on removing stop words and punctuations, as well as extracting word stems.
 ### 2.3 Feature Extraction: TF-IDF
