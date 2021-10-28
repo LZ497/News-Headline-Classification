@@ -1,12 +1,16 @@
 # News Headline Classification 
 Team members: Keqin Liu, Linpei Zhang, Lu Zhang
 ## 1.Introduction
-NLP applications are very popular in text classification and sentiment analysis. In this project, we want to 
+Text classification is a machine learning technique used to assign text documents into one or more classes, among a predefined set of classes. A text classification system would be able to classify each document to its correct class based on inherent properties of the text successfully.
+In this project, we would like to explore the application of text classification in news headline classification from mainstream media sources, and further perform analyses on different news classifications to assign 
 ## 2.Data Preparation
+Data Preparation is an essential step for performing and training different models on data collected as a clean dataset is key to ensuring the accuracy of the models and labeling text classifications. Text classification generally includes data collection, text cleaning, as well as feature extraction using TF-IDF.
 ### 2.1 Data Collection
-Data is collected from .... with labels. The dataset is split into 2 parts, 80% training dataset and 20% testing dataset. 
-### 2.2 Text Cleaning & Tokenization
+For this project, our first option is to collect data from newsapi.org using NewsAPI. Data collected includes news source, news title, news headlines, category and date. The dataset would be split into 2 parts, 80% training dataset and 20% testing dataset. 
+### 2.2 Text Cleaning
+Data collected using NewAPI is generally clean, as we are only collecting news headlines in the English language, and they are comprised of fully sentences with minimal irregularities. Text cleaning would mostly be on removing stop words and punctuations, as well as extracting word stems.
 ### 2.3 Feature Extraction: TF-IDF
+We will be using TF-IDF vectorizer to normalize the data collected and reflect how important different words from each news headline are to a document in a collection or corpus (all data collected). TF-IDF, unlike count vectorizer, is more accurate in terms of offseting the disparity of frequencies different words could appear in the dataset.
 ## 3.Model
 The models we leverage can be divided into two types: one is non-neural network and the other is neural network, which is LSTM. Meanwhile, non-neural networks consists of single machine learning models, which includes SVM, Decision Tree, and Multinomial Navie Bayes, and ensemble learning models, which includes random forest based on bagging and GBDT based on boosting.
 <img width="1107" alt="models" src="https://user-images.githubusercontent.com/89560257/139080695-57b6ce7c-2a54-48a5-ae6a-a96142c78ae7.png">
@@ -32,6 +36,7 @@ Recall = true positive/(true positive +false negative)\
 F1 score = 2 precision * recall/(precision + recall)
 
 ## 5.Biggest Challenges
-1. In previous research, the multinomial naive bayes is proved to perform best among all of the models. We want to verify this conclusion in our project.
+1. For this project, we don't necessarily have a large dataset as we are limited with NewsAPI which only takes 1500 requests per day (using three different accounts) and extracts news headlines within the past month.
+2. In previous research, the multinomial naive bayes is proved to perform best among all of the models. We want to verify this conclusion in our project.
 
 
