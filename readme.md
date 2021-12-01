@@ -13,7 +13,7 @@ Data collected using NewAPI is generally clean, as we are only collecting news h
 We will be using TF-IDF vectorizer to normalize the data collected and reflect how important different words from each news headline are to a document in a collection or corpus (all data collected). TF-IDF, unlike count vectorizer, is more accurate in terms of offseting the disparity of frequencies different words could appear in the dataset.
 ## 3.Model
 The models we leverage can be divided into two types: one is non-neural network and the other is neural network, which is LSTM. Meanwhile, non-neural networks consists of single machine learning models, which includes SVM, Decision Tree, and Multinomial Navie Bayes, and ensemble learning models, which includes random forest based on bagging and GBDT based on boosting.
-<img width="1107" alt="models" src="https://user-images.githubusercontent.com/89560257/139080695-57b6ce7c-2a54-48a5-ae6a-a96142c78ae7.png">
+<img width="1018" alt="Screen Shot 2021-11-30 at 7 48 06 PM" src="https://user-images.githubusercontent.com/89560257/144151492-1540833f-a9cc-4f0b-8f8c-2992542caf76.png">
 ### 3.1 SVM
 Support Vector Machine is a supervised machine learning algorithm,which is mostly used in classification problems. In the SVM algorithm, we plot each data item as a point in n-dimensional space (where n is a number of features you have) with the value of each feature being the value of a particular coordinate. Then, we perform classification by finding the hyper-plane that differentiates the two classes very well.
 ### 3.2 Multinomial Navie Bayes
