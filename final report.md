@@ -11,7 +11,7 @@ The data contains nine different categories:
 <div align='center'><img width="700" height="700" src="https://user-images.githubusercontent.com/89607189/144772236-5748adb4-4ef0-4615-adbf-cca9aca91e04.png"></div>
 
 # 2. Data Cleaning
-To increase model accuracy, the 'headline' and the short_description is combined into a new column 'text'. After tokenization, stemming and lemmatization, the clean dataset is split into training and testing dataset in a 8:2 ratio.
+To increase model accuracy, the 'headline' and the short_description is combined into a new column 'text'. After tokenization, stemming and lemmatization, the clean dataset is split into training and testing dataset in a 4:1 ratio.
 
 Train Data news category distribution:
 
@@ -39,7 +39,7 @@ Confusion matric:
 
 <img width="400" height="300" src="https://user-images.githubusercontent.com/89607189/144783617-219ded15-d46b-4c4c-9a8c-1de635caa78e.png">
 
-## 3.2 Perception
+## 3.2 Perceptron
 Model performance:
 
 <img width="400" height="240" src="https://user-images.githubusercontent.com/89607189/144783656-a00a9a8f-fd67-4014-9ce0-8ea51cd7118b.png">
@@ -102,7 +102,7 @@ For test dataset, acc:0.71893, pre:0.71940, recall:0.71780, f1:0.71640.
 
 # 4. Model Evaluation
 ## 4.1 Model comparation
-| Model         | Multinomial Navie Bayes | Perception | SVM | Decision Tree | Random Forest | BERT   |  LSTM   |
+| Model         | Multinomial Navie Bayes | Perceptron | SVM | Decision Tree | Random Forest | BERT   |  LSTM   |
 | ------------- | ----------------------- | ---------- | ----|-------------- | ------------- | -----  | ------  |
 | Accuracy      |          0.84           |   0.81     |0.85 |     0.69      |    0.79       | 0.786  |  0.718  |
 | Precision     |          0.84           |   0.81     |0.85 |     0.69      |    0.78       | 0.787  |  0.719  |
