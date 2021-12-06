@@ -41,4 +41,9 @@ We used Streamlit, an open-source python framework, to deploy Web Apps for the m
 Our first Web App compares the Random Forest, Multinomial Naïve Bayes, and Support Vector Machine models for our test dataset. We can cross compare the predicted values as well as probability distributions.
 Our second Web App enables users to input news headlines, and predicts the News headline classification and probability distributions using Multinomial Naïve Bayes model.
 
+Compare Models on Test Dataset:
+![image](https://user-images.githubusercontent.com/89607189/final_web.gif)
+
+User Input News Headlines:
+![image](https://user-images.githubusercontent.com/89607189/final_web_input_news_headline.gif)
 
