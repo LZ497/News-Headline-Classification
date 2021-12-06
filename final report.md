@@ -32,30 +32,51 @@ Multinomial Naive Bayes algorithm is based on the Bayes theorem. It calculates t
 GridSearchCV is used to find the optimal alpha of the model.
 
 Model performance:
+
 <img width="400" height="240" src="https://user-images.githubusercontent.com/89607189/144783598-8e5994fd-3f02-40a3-95b5-c2ac97943f55.png">
 
 Confusion matric:
+
 <img width="400" height="300" src="https://user-images.githubusercontent.com/89607189/144783617-219ded15-d46b-4c4c-9a8c-1de635caa78e.png">
 
 ## 3.2 Perception
 Model performance:
+
 <img width="400" height="240" src="https://user-images.githubusercontent.com/89607189/144783656-a00a9a8f-fd67-4014-9ce0-8ea51cd7118b.png">
 
 Confusion matric:
+
 <img width="400" height="300" src="https://user-images.githubusercontent.com/89607189/144783682-f57726d3-836d-4f22-8b73-1f62d4c9a521.png">
 
 ## 3.3 SVM
 Support Vector Machine is a supervised machine learning algorithm,which is mostly used in classification problems. In the SVM algorithm, we plot each data item as a point in n-dimensional space (where n is a number of features you have) with the value of each feature being the value of a particular coordinate. Then, we perform classification by finding the hyper-plane that differentiates the two classes very well.
 
+Model performance:
+
 <img width="400" height="240" src="https://user-images.githubusercontent.com/89607189/144783717-7167a01b-9138-4c71-80a7-a7ce829add22.png">
+
+
+Confusion matric:
+
 <img width="400" height="300" src="https://user-images.githubusercontent.com/89607189/144783732-19d4cb0e-597a-432e-bd19-de20ac67c8d7.png">
 
 ## 3.4 Decision Tree
+
+Model performance:
+
 <img width="400" height="240" src="https://user-images.githubusercontent.com/89607189/144783768-73c07bbf-454a-4afd-8660-d8c2bf8fc3eb.png">
+
+Confusion matric:
+
 <img width="400" height="300" src="https://user-images.githubusercontent.com/89607189/144783782-fbac0a43-2eb3-413a-9645-a62f35d087e6.png">
 
 ## 3.5 Random Forest
+Model performance:
+
 <img width="400" height="240" src="https://user-images.githubusercontent.com/89607189/144783810-2260c05b-ca72-4bf1-b918-3241eb3c5719.png">
+
+Confusion matric:
+
 <img width="400" height="300" src="https://user-images.githubusercontent.com/89607189/144783823-1c65b27b-7c62-44f8-b9ce-348c18ac4d81.png">
 
 ## 3.6 BERT
