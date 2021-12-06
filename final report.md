@@ -24,10 +24,11 @@ Test Data news category distribution:
 The category distribution in the train and test dataset are both well balanced.
 
 # 3. Model
+The pipeline is used to process data combining countvectorize, TFIDF and classification model.
 
-## 3.1 SVM
+## 3.1 Multinomial Navie Bayes
 
-## 3.2 Multinomial Navie Bayes
+## 3.2 SVM
 
 ## 3.3 Decision Tree
 
