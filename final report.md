@@ -42,8 +42,8 @@ Our first Web App compares the Random Forest, Multinomial Naïve Bayes, and Supp
 Our second Web App enables users to input news headlines, and predicts the News headline classification and probability distributions using Multinomial Naïve Bayes model.
 
 Compare Models on Test Dataset:
-![image](https://user-images.githubusercontent.com/89607189/final_web.gif)
+![image](https://github.com/zhanglu980608/NLP-Final-Project/blob/main/final_web.gif)
 
 User Input News Headlines:
-![image](https://user-images.githubusercontent.com/89607189/final_web_input_news_headline.gif)
+![image](https://github.com/zhanglu980608/NLP-Final-Project/blob/main/final_web_input_news_headline.gif)
 
