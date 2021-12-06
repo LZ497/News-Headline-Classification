@@ -52,8 +52,8 @@ In order to improve our accuracy, one hot is used to encode categorical variable
 Here are the evaluations for each epoch.
 <img width="800" src="https://github.com/zhanglu980608/NLP-Final-Project/blob/main/pics/lstm_layers_evaluations.png">
 The accuracy of train dataset and validation dataset are both increasing while the loss on train dataset is decreasing, but on validation dataset, the loss decreases first and increase a little later. Maybe there are some overfitting problems. However, in genral, the lstm model performs well. 
-For test dataset,
-acc:0.7189935426408373, pre:0.7189935426408373, recall:0.7189935426408373, f1:0.7189935426408373
+For test dataset, acc:0.7189935426408373, pre:0.7189935426408373, recall:0.7189935426408373, f1:0.7189935426408373. 
+
 # 4. Model Evaluation
 ## 4.1 Feature importance
 ![image](https://user-images.githubusercontent.com/89607189/144779460-6d7eaff9-5757-47e5-a126-790b13237718.png)
