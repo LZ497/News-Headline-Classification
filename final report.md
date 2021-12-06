@@ -18,6 +18,16 @@ Test Data news category distribution:
 
 ![image](https://user-images.githubusercontent.com/89607189/144772575-2b74a383-b46d-4f4a-a19b-50871c322fb9.png)
 
+# 3. Models
+
+### 3.1 SVM
+
+### 3.2 Multinomial Navie Bayes
+
+### 3.3 Decision Tree
+
+### 3.4 Random Forest
+
 ### 3.5 Bert
 BERT makes use of Transformer, an attention mechanism that learns contextual relations between words (or sub-words) in a text. In its vanilla form, Transformer includes two separate mechanisms — an encoder that reads the text input and a decoder that produces a prediction for the task. Since BERT’s goal is to generate a language model, only the encoder mechanism is necessary. 
 set the bach size is 15, and epoch is 2, Create batched inputs using Huggingface's DistilBERT tokenizer
