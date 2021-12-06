@@ -61,6 +61,9 @@ Confusion matric:
 <img width="400" height="300" src="https://user-images.githubusercontent.com/89607189/144783732-19d4cb0e-597a-432e-bd19-de20ac67c8d7.png">
 
 ## 3.4 Decision Tree
+A decision tree is a prediction model structured in the form of a tree that is built using recursive splitting of the internal nodes which represents testing on certain features. The branches of the tree represent the outcome of the test and each leaf node denotes the final outputs that are labels in our case. It follows a top-down where the most important feature is located at the top (known as the root node) and the leaves represent corresponding classes/labels. Here, we will be using it to perform the classification of the news headlines.
+
+Gini is used as the criterion.
 
 Model performance:
 
@@ -71,6 +74,8 @@ Confusion matric:
 <img width="400" height="300" src="https://user-images.githubusercontent.com/89607189/144783782-fbac0a43-2eb3-413a-9645-a62f35d087e6.png">
 
 ## 3.5 Random Forest
+A random forest is an ensemble classifier that estimates based on the combination of different decision trees. Effectively, it fits a number of decision tree classifiers on various subsamples of the dataset. Also, each tree in the forest built on a random best subset of features. Finally, the act of enabling these trees gives us the best subset of features among all the random subsets of features.
+
 Model performance:
 
 <img width="400" height="240" src="https://user-images.githubusercontent.com/89607189/144783810-2260c05b-ca72-4bf1-b918-3241eb3c5719.png">
@@ -100,10 +105,12 @@ In order to improve our accuracy, one hot is used to encode categorical variable
 Here are the evaluations for each epoch.
 <img width="800" src="https://github.com/zhanglu980608/NLP-Final-Project/blob/main/pics/lstm_layers_evaluations.png">
 The accuracy of train dataset and validation dataset are both increasing while the loss on train dataset is decreasing, but on validation dataset, the loss decreases first and increase a little later. Maybe there are some overfitting problems. However, in genral, the lstm model performs well. 
+
 For test dataset, acc:0.71893, pre:0.71940, recall:0.71780, f1:0.71640. 
 
 # 4. Model Evaluation
 ## 4.1 Model comparation
+After comparing the performance of seven models, Linear SVM has the highest acuuracy, precision, recall and F-1 score.
 | Model         | Multinomial Navie Bayes | Perceptron | SVM | Decision Tree | Random Forest | BERT   |  LSTM   |
 | ------------- | ----------------------- | ---------- | ----|-------------- | ------------- | -----  | ------  |
 | Accuracy      |          0.84           |   0.81     |0.85 |     0.69      |    0.79       | 0.786  |  0.718  |
@@ -113,6 +120,8 @@ For test dataset, acc:0.71893, pre:0.71940, recall:0.71780, f1:0.71640.
 
 
 ## 4.2 Feature importance
+The top ten words of different news categories from Linear SVM model.
+
 ![image](https://user-images.githubusercontent.com/89607189/144779460-6d7eaff9-5757-47e5-a126-790b13237718.png)
 
 
