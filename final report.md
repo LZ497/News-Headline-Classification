@@ -114,7 +114,7 @@ For test dataset, acc:0.71893, pre:0.71940, recall:0.71780, f1:0.71640.
 ![image](https://user-images.githubusercontent.com/89607189/144779460-6d7eaff9-5757-47e5-a126-790b13237718.png)
 
 
-# 5 App Deployment
+# 5. App Deployment
 We used Streamlit, an open-source python framework, to deploy Web Apps for the models.
 Our first Web App compares the Random Forest, Multinomial Naïve Bayes, and Support Vector Machine models for our test dataset. We can cross compare the predicted values as well as probability distributions.
 Our second Web App enables users to input news headlines, and predicts the News headline classification and probability distributions using Multinomial Naïve Bayes model.
