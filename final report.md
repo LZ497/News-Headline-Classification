@@ -31,21 +31,20 @@ The pipeline is used to process data combining countvectorize, TFIDF and classif
 <img width="400" height="300" src="https://user-images.githubusercontent.com/89607189/144783617-219ded15-d46b-4c4c-9a8c-1de635caa78e.png">
 
 ## 3.2 Perception
-![image](https://user-images.githubusercontent.com/89607189/144783656-a00a9a8f-fd67-4014-9ce0-8ea51cd7118b.png)
-![image](https://user-images.githubusercontent.com/89607189/144783682-f57726d3-836d-4f22-8b73-1f62d4c9a521.png)
+<img width="400" height="240" src="https://user-images.githubusercontent.com/89607189/144783656-a00a9a8f-fd67-4014-9ce0-8ea51cd7118b.png">
+<img width="400" height="300" src="https://user-images.githubusercontent.com/89607189/144783682-f57726d3-836d-4f22-8b73-1f62d4c9a521.png">
 
 ## 3.3 SVM
-![image](https://user-images.githubusercontent.com/89607189/144783717-7167a01b-9138-4c71-80a7-a7ce829add22.png)
-![image](https://user-images.githubusercontent.com/89607189/144783732-19d4cb0e-597a-432e-bd19-de20ac67c8d7.png)
-
+<img width="400" height="240" src="https://user-images.githubusercontent.com/89607189/144783717-7167a01b-9138-4c71-80a7-a7ce829add22.png">
+<img width="400" height="300" src="https://user-images.githubusercontent.com/89607189/144783732-19d4cb0e-597a-432e-bd19-de20ac67c8d7.png">
 
 ## 3.4 Decision Tree
-![image](https://user-images.githubusercontent.com/89607189/144783768-73c07bbf-454a-4afd-8660-d8c2bf8fc3eb.png)
-![image](https://user-images.githubusercontent.com/89607189/144783782-fbac0a43-2eb3-413a-9645-a62f35d087e6.png)
+<img width="400" height="240" src="https://user-images.githubusercontent.com/89607189/144783768-73c07bbf-454a-4afd-8660-d8c2bf8fc3eb.png">
+<img width="400" height="300" src="https://user-images.githubusercontent.com/89607189/144783782-fbac0a43-2eb3-413a-9645-a62f35d087e6.png">
 
 ## 3.5 Random Forest
-![image](https://user-images.githubusercontent.com/89607189/144783810-2260c05b-ca72-4bf1-b918-3241eb3c5719.png)
-![image](https://user-images.githubusercontent.com/89607189/144783823-1c65b27b-7c62-44f8-b9ce-348c18ac4d81.png)
+<img width="400" height="240" src="https://user-images.githubusercontent.com/89607189/144783810-2260c05b-ca72-4bf1-b918-3241eb3c5719.png">
+<img width="400" height="300" src="https://user-images.githubusercontent.com/89607189/144783823-1c65b27b-7c62-44f8-b9ce-348c18ac4d81.png">
 
 ## 3.6 BERT
 BERT makes use of Transformer, an attention mechanism that learns contextual relations between words (or sub-words) in a text. In its vanilla form, Transformer includes two separate mechanisms — an encoder that reads the text input and a decoder that produces a prediction for the task. Since BERT’s goal is to generate a language model, only the encoder mechanism is necessary.   
