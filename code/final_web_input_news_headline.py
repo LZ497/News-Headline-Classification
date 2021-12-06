@@ -21,7 +21,7 @@ from sklearn.naive_bayes import MultinomialNB
 import pickle
 
 # load the model
-text_clf_nb = pickle.load(open("/Users/galeliu/Downloads/text_clf_nb.pkl", "rb"))
+text_clf_nb = pickle.load(open("https://github.com/zhanglu980608/NLP-Final-Project/blob/main/code/text_clf_nb.pkl", "rb"))
 
 st.write("""
 # News Headline Classification App
@@ -43,7 +43,7 @@ st.subheader('Prediction')
 #st.write(predicted[1])
 st.write(str(new_predicted))
 
-pred_all = pd.read_csv("/Users/galeliu/Downloads/pred.csv")
+pred_all = pd.read_csv("https://github.com/zhanglu980608/NLP-Final-Project/blob/main/.csv%20files/pred.csv")
 pred_all_colname = sorted(pred_all.Category_nb.unique())
 
 pred_all_proba = pd.DataFrame(new_prediction_proba, columns=pred_all_colname)
