@@ -20,29 +20,31 @@ Test Data news category distribution:
 
 # 3. Model
 
-### 3.1 SVM
+## 3.1 SVM
 
-### 3.2 Multinomial Navie Bayes
+## 3.2 Multinomial Navie Bayes
 
-### 3.3 Decision Tree
+## 3.3 Decision Tree
 
-### 3.4 Random Forest
+## 3.4 Random Forest
 
-### 3.5 Bert
+## 3.5 Bert
 BERT makes use of Transformer, an attention mechanism that learns contextual relations between words (or sub-words) in a text. In its vanilla form, Transformer includes two separate mechanisms — an encoder that reads the text input and a decoder that produces a prediction for the task. Since BERT’s goal is to generate a language model, only the encoder mechanism is necessary. 
 Set the bach size is 15, and epoch is 2, and Huggingface's DistilBERT tokenizer as our batched inputs 
 For our train datasets, the loss: 0.62453, f1-score: 0.80974, accuracy: 0.80984, precision: 0.81017, recall: 0.80979
 For our test datasets, the loss: 0.68415, f1-score: 0.78636, accuracy: 0.78646, precision: 0.78738, recall: 0.78632
 ![image](https://github.com/zhanglu980608/NLP-Final-Project/blob/main/%20bert.gif)
-### 3.6 LSTM
+## 3.6 LSTM
 Long short term memory is a special RNN model, which is effective in memorizing important information. We could find that other non-neural network classification techniques they are trained on multiple word as separate inputs that are just word having no actual meaning as a sentence, and while predicting the class it will give the output according to statistics and not according to meaning. That means, every single word is classified into one of the categories.However, in LSTM we can use a multiple word string to find out the class to which it belongs. This is very helpful while working with Natural language processing. If we use appropriate layers of embedding and encoding in LSTM, the model will be able to find out the actual meaning in input string and will give the most accurate output class. It can also mainly to solve the problems of gradient disappearance and gradient explosion in the process of long sequence training. In short, LSTM usually can perform better in longer sequences than ordinary RNN and other non-neural network classification techniques.
 In order to improve our accuracy, one hot is used to encode categorical variables as binary vectors. And set the Epoch 12, the bach size 256 (which is constricted by colab RAM room) After Lstm layer, a Fully-connected layer follows. Then the drop out layer is used to prevent the net from overfitting. In the end, the dense layer was conducted to print output.
 ![image](https://github.com/zhanglu980608/NLP-Final-Project/blob/main/lstm_layer.png)
 Here are the evaluations for each epoch.
 ![image](https://github.com/zhanglu980608/NLP-Final-Project/blob/main/lstm_layer_evaluations.png)
 # 4. Model Evaluation
+## 4.1 Feature importance
+![image](https://user-images.githubusercontent.com/89607189/144779460-6d7eaff9-5757-47e5-a126-790b13237718.png)
 
-### 4.1 App Deployment
+## 4.2 App Deployment
 We used Streamlit, an open-source python framework, to deploy Web Apps for the models.
 Our first Web App compares the Random Forest, Multinomial Naïve Bayes, and Support Vector Machine models for our test dataset. We can cross compare the predicted values as well as probability distributions.
 Our second Web App enables users to input news headlines, and predicts the News headline classification and probability distributions using Multinomial Naïve Bayes model.
