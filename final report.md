@@ -11,7 +11,7 @@ The data contains nine different categories:
 <div align='center'><img width="700" height="700" src="https://user-images.githubusercontent.com/89607189/144772236-5748adb4-4ef0-4615-adbf-cca9aca91e04.png"></div>
 
 # 2. Data Cleaning
-To increase model accuracy, the 'headline' and the short_description is combined into a new column 'text'. After tokenization, stemming and lemmatization, the clean dataset is split into training an testing dataset in a 8:2 ratio.
+To increase model accuracy, the 'headline' and the short_description is combined into a new column 'text'. After tokenization, stemming and lemmatization, the clean dataset is split into training and testing dataset in a 8:2 ratio.
 
 Train Data news category distribution:
 
@@ -27,14 +27,26 @@ The category distribution in the train and test dataset are both well balanced.
 The pipeline is used to process data combining countvectorize, TFIDF and classification model.
 
 ## 3.1 Multinomial Navie Bayes
+Multinomial Naive Bayes algorithm is based on the Bayes theorem. It calculates the probability of each tag for a given sample and then gives the tag with the highest probability as output. The principle of it is each feature being classified is not related to any other feature. The presence or absence of a feature does not affect the presence or absence of the other feature.
+
+GridSearchCV is used to find the optimal alpha of the model.
+
+Model performance:
 <img width="400" height="240" src="https://user-images.githubusercontent.com/89607189/144783598-8e5994fd-3f02-40a3-95b5-c2ac97943f55.png">
+
+Confusion matric:
 <img width="400" height="300" src="https://user-images.githubusercontent.com/89607189/144783617-219ded15-d46b-4c4c-9a8c-1de635caa78e.png">
 
 ## 3.2 Perception
+Model performance:
 <img width="400" height="240" src="https://user-images.githubusercontent.com/89607189/144783656-a00a9a8f-fd67-4014-9ce0-8ea51cd7118b.png">
+
+Confusion matric:
 <img width="400" height="300" src="https://user-images.githubusercontent.com/89607189/144783682-f57726d3-836d-4f22-8b73-1f62d4c9a521.png">
 
 ## 3.3 SVM
+Support Vector Machine is a supervised machine learning algorithm,which is mostly used in classification problems. In the SVM algorithm, we plot each data item as a point in n-dimensional space (where n is a number of features you have) with the value of each feature being the value of a particular coordinate. Then, we perform classification by finding the hyper-plane that differentiates the two classes very well.
+
 <img width="400" height="240" src="https://user-images.githubusercontent.com/89607189/144783717-7167a01b-9138-4c71-80a7-a7ce829add22.png">
 <img width="400" height="300" src="https://user-images.githubusercontent.com/89607189/144783732-19d4cb0e-597a-432e-bd19-de20ac67c8d7.png">
 
