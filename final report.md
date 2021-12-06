@@ -48,8 +48,10 @@ Confusion matric:
 
 <img width="400" height="300" src="https://user-images.githubusercontent.com/89607189/144783682-f57726d3-836d-4f22-8b73-1f62d4c9a521.png">
 
-## 3.3 SVM
+## 3.3 Linear SVM
 Support Vector Machine is a supervised machine learning algorithm,which is mostly used in classification problems. In the SVM algorithm, we plot each data item as a point in n-dimensional space (where n is a number of features you have) with the value of each feature being the value of a particular coordinate. Then, we perform classification by finding the hyper-plane that differentiates the two classes very well.
+
+GridSearchCV is used to find the best c for the model.
 
 Model performance:
 
