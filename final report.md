@@ -7,16 +7,18 @@ Preview of dataset:
 ![image](https://user-images.githubusercontent.com/89607189/144772167-20e9c53f-b684-4fa2-8131-1c7330c2fcd3.png)
 
 The data contains nine different categories:
-![image](https://user-images.githubusercontent.com/89607189/144772236-5748adb4-4ef0-4615-adbf-cca9aca91e04.png)
+
+<div align='center'><img width="700" height="700" src="https://user-images.githubusercontent.com/89607189/144772236-5748adb4-4ef0-4615-adbf-cca9aca91e04.png"></div>
 
 # 2. Data Cleaning
 Train Data news category distribution:
 
-![image](https://user-images.githubusercontent.com/89607189/144772555-6d6d985f-9a27-4724-b094-9ba3a3b76cc6.png)
+<img width="500" height="380" src="https://user-images.githubusercontent.com/89607189/144772555-6d6d985f-9a27-4724-b094-9ba3a3b76cc6.png">
 
 Test Data news category distribution:
 
-![image](https://user-images.githubusercontent.com/89607189/144772575-2b74a383-b46d-4f4a-a19b-50871c322fb9.png)
+<img width="500" height="380" src="https://user-images.githubusercontent.com/89607189/144772575-2b74a383-b46d-4f4a-a19b-50871c322fb9.png">
+
 
 # 3. Model
 
@@ -39,9 +41,11 @@ Long short term memory is a special RNN model, which is effective in memorizing 
 
 In order to improve our accuracy, one hot is used to encode categorical variables as binary vectors. And set the Epoch 12, the bach size 256 (which is constricted by colab RAM room) After Lstm layer, a Fully-connected layer follows. Then the drop out layer is used to prevent the net from overfitting. In the end, the dense layer was conducted to print output.
 
-![image](https://github.com/zhanglu980608/NLP-Final-Project/blob/main/lstm_layers.png)
+<img width="500" height="200" src="https://github.com/zhanglu980608/NLP-Final-Project/blob/main/lstm_layers.png">
 Here are the evaluations for each epoch.
+
 ![image](https://github.com/zhanglu980608/NLP-Final-Project/blob/main/lstm_layers_evaluations.png)
+
 # 4. Model Evaluation
 ## 4.1 Feature importance
 ![image](https://user-images.githubusercontent.com/89607189/144779460-6d7eaff9-5757-47e5-a126-790b13237718.png)
