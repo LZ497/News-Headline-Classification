@@ -70,17 +70,14 @@ For test dataset, acc:0.7189935426408373, pre:0.7189935426408373, recall:0.71899
 
 # 4. Model Evaluation
 ## 4.1 Model compariation
-| Model | Multinomial Navie Bayes | Perception | SVM | Decision Tree | Random Forest | BERT | LSTM |
-| Accuracy |
-| Precision |
-| Recall |
-| F-1 Score |
+| Model         | Multinomial Navie Bayes | Perception | SVM | Decision Tree | Random Forest | BERT | LSTM |
+| ------------- | ----------------------- | ---------- | ----|-------------- | ------------- | ---- | ---- |
+| Accuracy      |          0.84           |   0.81     |0.85 | 0.69          |0.79           |      |      |
+| Precision     |          0.84           |   0.81     |0.85 | 0.69          |0.78           |      |      |
+| Recall        |          0.84           |   0.81     |0.85 | 0.69          |0.78           |      |      |
+| F-1 Score     |          0.84           |   0.81     |0.85 | 0.69          |0.78           |      |      |
 
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
 ## 4.2 Feature importance
 ![image](https://user-images.githubusercontent.com/89607189/144779460-6d7eaff9-5757-47e5-a126-790b13237718.png)
 
