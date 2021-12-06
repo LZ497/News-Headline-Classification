@@ -10,6 +10,11 @@ The data contains nine different categories:
 ![image](https://user-images.githubusercontent.com/89607189/144772236-5748adb4-4ef0-4615-adbf-cca9aca91e04.png)
 
 # 2. Data Cleaning
+Train Data news category distribution:
+![image](https://user-images.githubusercontent.com/89607189/144772555-6d6d985f-9a27-4724-b094-9ba3a3b76cc6.png)
+
+Test Data news category distribution:
+![image](https://user-images.githubusercontent.com/89607189/144772575-2b74a383-b46d-4f4a-a19b-50871c322fb9.png)
 
 ### 3.5 Bert
 BERT makes use of Transformer, an attention mechanism that learns contextual relations between words (or sub-words) in a text. In its vanilla form, Transformer includes two separate mechanisms — an encoder that reads the text input and a decoder that produces a prediction for the task. Since BERT’s goal is to generate a language model, only the encoder mechanism is necessary. 
