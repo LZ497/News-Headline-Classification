@@ -57,9 +57,9 @@ Our second Web App enables users to input news headlines, and predicts the News 
 
 #### Compare Models on Test Dataset:
 
-![image](https://github.com/zhanglu980608/NLP-Final-Project/blob/main/final_web.gif)
+![image](https://github.com/zhanglu980608/NLP-Final-Project/blob/main/pics/final_web.gif)
 
 #### User Input News Headlines:
 
-![image](https://github.com/zhanglu980608/NLP-Final-Project/blob/main/final_web_input_news_headline.gif)
+![image](https://github.com/zhanglu980608/NLP-Final-Project/blob/main/pics/final_web_input_news_headline.gif)
 
