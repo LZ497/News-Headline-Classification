@@ -27,8 +27,8 @@ The category distribution in the train and test dataset are both well balanced.
 The pipeline is used to process data combining countvectorize, TFIDF and classification model.
 
 ## 3.1 Multinomial Navie Bayes
-![image](https://user-images.githubusercontent.com/89607189/144783598-8e5994fd-3f02-40a3-95b5-c2ac97943f55.png)
-![image](https://user-images.githubusercontent.com/89607189/144783617-219ded15-d46b-4c4c-9a8c-1de635caa78e.png)
+<img width="400" height="240" src="https://user-images.githubusercontent.com/89607189/144783598-8e5994fd-3f02-40a3-95b5-c2ac97943f55.png">
+<img width="400" height="300" src="https://user-images.githubusercontent.com/89607189/144783617-219ded15-d46b-4c4c-9a8c-1de635caa78e.png">
 
 ## 3.2 Perception
 ![image](https://user-images.githubusercontent.com/89607189/144783656-a00a9a8f-fd67-4014-9ce0-8ea51cd7118b.png)
