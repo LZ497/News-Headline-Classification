@@ -50,7 +50,11 @@ pred_all_proba = pd.DataFrame(new_prediction_proba, columns=pred_all_colname)
 
 st.subheader('Prediction Probability')
 st.write(pred_all_proba)
-#st.write(new_prediction_proba)
+
+########################### RUN THE NEXT LINE IN TERMINAL ###########################
+################# streamlit run final_web_input_news_headline.py ####################
+#####################################################################################
+
 #args=[]
 #st.bootstrap.run("/Users/galeliu/Downloads/streamlit_webpage.py", '', args, flag_options={})
 #st.stop()
