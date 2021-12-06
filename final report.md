@@ -66,16 +66,16 @@ In order to improve our accuracy, one hot is used to encode categorical variable
 Here are the evaluations for each epoch.
 <img width="800" src="https://github.com/zhanglu980608/NLP-Final-Project/blob/main/pics/lstm_layers_evaluations.png">
 The accuracy of train dataset and validation dataset are both increasing while the loss on train dataset is decreasing, but on validation dataset, the loss decreases first and increase a little later. Maybe there are some overfitting problems. However, in genral, the lstm model performs well. 
-For test dataset, acc:0.7189935426408373, pre:0.7189935426408373, recall:0.7189935426408373, f1:0.7189935426408373. 
+For test dataset, acc:0.71893, pre:0.71940, recall:0.71780, f1:0.71640. 
 
 # 4. Model Evaluation
 ## 4.1 Model compariation
-| Model         | Multinomial Navie Bayes | Perception | SVM | Decision Tree | Random Forest | BERT | LSTM |
-| ------------- | ----------------------- | ---------- | ----|-------------- | ------------- | ---- | ---- |
-| Accuracy      |          0.84           |   0.81     |0.85 | 0.69          |0.79           |      |      |
-| Precision     |          0.84           |   0.81     |0.85 | 0.69          |0.78           |      |      |
-| Recall        |          0.84           |   0.81     |0.85 | 0.69          |0.78           |      |      |
-| F-1 Score     |          0.84           |   0.81     |0.85 | 0.69          |0.78           |      |      |
+| Model         | Multinomial Navie Bayes | Perception | SVM | Decision Tree | Random Forest | BERT   |  LSTM   |
+| ------------- | ----------------------- | ---------- | ----|-------------- | ------------- | -----  | ------  |
+| Accuracy      |          0.84           |   0.81     |0.85 | 0.69          |0.79           | 0.786  |  0.718  |
+| Precision     |          0.84           |   0.81     |0.85 | 0.69          |0.78           | 0.787  |  0.719  |
+| Recall        |          0.84           |   0.81     |0.85 | 0.69          |0.78           | 0.786  |  0.717  |
+| F-1 Score     |          0.84           |   0.81     |0.85 | 0.69          |0.78           | 0.786  |  0.716  |
 
 
 ## 4.2 Feature importance
