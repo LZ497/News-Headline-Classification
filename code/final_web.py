@@ -57,8 +57,10 @@ final_pred_svm=pred_df['Category_svm'][pred_df.index[pred_df['News Headline'] ==
 st.subheader('SVM Prediction')
 st.write(str(final_pred_svm.values))
 
+################# RUN THE NEXT LINE IN TERMINAL #################
+################# streamlit run final_web.py ####################
+#################################################################
 
-#st.write(prediction_proba)
 #args=[]
 #st.bootstrap.run("/Users/galeliu/Downloads/streamlit_webpage.py", '', args, flag_options={})
 #st.stop()
