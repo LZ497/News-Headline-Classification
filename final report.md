@@ -11,9 +11,11 @@ The data contains nine different categories:
 
 # 2. Data Cleaning
 Train Data news category distribution:
+
 ![image](https://user-images.githubusercontent.com/89607189/144772555-6d6d985f-9a27-4724-b094-9ba3a3b76cc6.png)
 
 Test Data news category distribution:
+
 ![image](https://user-images.githubusercontent.com/89607189/144772575-2b74a383-b46d-4f4a-a19b-50871c322fb9.png)
 
 ### 3.5 Bert
