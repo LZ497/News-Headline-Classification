@@ -14,9 +14,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-pred_df = pd.read_csv("/Users/galeliu/Downloads/pred.csv")
-pred_rf_proba = pd.read_csv("/Users/galeliu/Downloads/pred_rf_proba.csv")
-pred_nb_proba = pd.read_csv("/Users/galeliu/Downloads/pred_nb_proba.csv")
+pred_df = pd.read_csv("https://github.com/zhanglu980608/NLP-Final-Project/blob/main/.csv%20files/pred.csv")
+pred_rf_proba = pd.read_csv("https://github.com/zhanglu980608/NLP-Final-Project/blob/main/.csv%20files/pred_rf_proba.csv")
+pred_nb_proba = pd.read_csv("https://github.com/zhanglu980608/NLP-Final-Project/blob/main/.csv%20files/pred_nb_proba.csv")
 #pred_df = pred_df.groupby('Category').apply(lambda x: x.sample(frac=0.01))
 
 
