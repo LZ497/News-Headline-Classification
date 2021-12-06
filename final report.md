@@ -11,6 +11,8 @@ The data contains nine different categories:
 <div align='center'><img width="700" height="700" src="https://user-images.githubusercontent.com/89607189/144772236-5748adb4-4ef0-4615-adbf-cca9aca91e04.png"></div>
 
 # 2. Data Cleaning
+To increase model accuracy, the 'headline' and the short_description is combined into a new column 'text'. After tokenization, stemming and lemmatization, the clean dataset is split into training an testing dataset in a 8:2 ratio.
+
 Train Data news category distribution:
 
 <img width="500" height="380" src="https://user-images.githubusercontent.com/89607189/144772555-6d6d985f-9a27-4724-b094-9ba3a3b76cc6.png">
@@ -19,6 +21,7 @@ Test Data news category distribution:
 
 <img width="500" height="380" src="https://user-images.githubusercontent.com/89607189/144772575-2b74a383-b46d-4f4a-a19b-50871c322fb9.png">
 
+The category distribution in the train and test dataset are both well balanced.
 
 # 3. Model
 
