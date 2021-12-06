@@ -101,7 +101,7 @@ The accuracy of train dataset and validation dataset are both increasing while t
 For test dataset, acc:0.71893, pre:0.71940, recall:0.71780, f1:0.71640. 
 
 # 4. Model Evaluation
-## 4.1 Model compariation
+## 4.1 Model comparation
 | Model         | Multinomial Navie Bayes | Perception | SVM | Decision Tree | Random Forest | BERT   |  LSTM   |
 | ------------- | ----------------------- | ---------- | ----|-------------- | ------------- | -----  | ------  |
 | Accuracy      |          0.84           |   0.81     |0.85 |     0.69      |    0.79       | 0.786  |  0.718  |
