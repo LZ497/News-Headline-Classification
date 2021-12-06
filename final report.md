@@ -38,9 +38,10 @@ For our test datasets, the loss: 0.68415, f1-score: 0.78636, accuracy: 0.78646, 
 Long short term memory is a special RNN model, which is effective in memorizing important information. We could find that other non-neural network classification techniques they are trained on multiple word as separate inputs that are just word having no actual meaning as a sentence, and while predicting the class it will give the output according to statistics and not according to meaning. That means, every single word is classified into one of the categories.However, in LSTM we can use a multiple word string to find out the class to which it belongs. This is very helpful while working with Natural language processing. If we use appropriate layers of embedding and encoding in LSTM, the model will be able to find out the actual meaning in input string and will give the most accurate output class. It can also mainly to solve the problems of gradient disappearance and gradient explosion in the process of long sequence training. In short, LSTM usually can perform better in longer sequences than ordinary RNN and other non-neural network classification techniques.  
 
 In order to improve our accuracy, one hot is used to encode categorical variables as binary vectors. And set the Epoch 12, the bach size 256 (which is constricted by colab RAM room) After Lstm layer, a Fully-connected layer follows. Then the drop out layer is used to prevent the net from overfitting. In the end, the dense layer was conducted to print output.
-![image](https://github.com/zhanglu980608/NLP-Final-Project/blob/main/lstm_layer.png)
+
+![image](https://github.com/zhanglu980608/NLP-Final-Project/blob/main/lstm_layers.png)
 Here are the evaluations for each epoch.
-![image](https://github.com/zhanglu980608/NLP-Final-Project/blob/main/lstm_layer_evaluations.png)
+![image](https://github.com/zhanglu980608/NLP-Final-Project/blob/main/lstm_layers_evaluations.png)
 # 4. Model Evaluation
 ## 4.1 Feature importance
 ![image](https://user-images.githubusercontent.com/89607189/144779460-6d7eaff9-5757-47e5-a126-790b13237718.png)
