@@ -1,5 +1,5 @@
 # 1. Data Introduction
-The dataset is news headline data download from Kaggle https://www.kaggle.com/setseries/news-category-dataset.
+This dataset is news headline data download from Kaggle https://www.kaggle.com/setseries/news-category-dataset.
 
 It contains 9 news categories: BUSINESS, ENTERTAINMENT, FOOD & DRINK, PARENTING, POLITICS, SPORTS, STYLE & BEAUTY, TRAVEL and WORLD NEWS, consisting of 44,910 news headlines.
 
