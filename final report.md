@@ -89,7 +89,7 @@ Confusion matric:
 ## 3.6 BERT
 BERT makes use of Transformer, an attention mechanism that learns contextual relations between words (or sub-words) in a text. In its vanilla form, Transformer includes two separate mechanisms — an encoder that reads the text input and a decoder that produces a prediction for the task. Since BERT’s goal is to generate a language model, only the encoder mechanism is necessary.   
 
-Set the bach size is 15, and epoch is 2, and Huggingface's DistilBERT tokenizer as our batched inputs.  
+Set the bach size 15, and epoch 2, and Huggingface's DistilBERT tokenizer as our batched inputs.  
 
 For our train datasets, the loss: 0.62453, f1-score: 0.80974, accuracy: 0.80984, precision: 0.81017, recall: 0.80979. 
 For our test datasets, the loss: 0.68415, f1-score: 0.78636, accuracy: 0.78646, precision: 0.78738, recall: 0.78632.  
