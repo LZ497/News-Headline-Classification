@@ -94,7 +94,7 @@ Set the bach size is 15, and epoch is 2, and Huggingface's DistilBERT tokenizer 
 For our train datasets, the loss: 0.62453, f1-score: 0.80974, accuracy: 0.80984, precision: 0.81017, recall: 0.80979. 
 For our test datasets, the loss: 0.68415, f1-score: 0.78636, accuracy: 0.78646, precision: 0.78738, recall: 0.78632.  
 
-We could use the projetor to this interpreti and visualz the embeddings. The dashboard allows users to search for specific terms, and highlights words that are adjacent to each other in the embedding (low-dimensional) space. 
+We could use the projetor to this interpret and visualize the embeddings. The dashboard allows users to search for specific terms, and highlights words that are adjacent to each other in the embedding (low-dimensional) space. 
 ![image](https://github.com/zhanglu980608/NLP-Final-Project/blob/main/pics/%20bert.gif)
 
 ## 3.7 LSTM
@@ -117,7 +117,7 @@ The accuracy of train dataset and validation dataset are both increasing while t
 For test dataset, acc:0.71893, pre:0.71940, recall:0.71780, f1:0.71640. 
 
 # 4. Model Evaluation
-## 4.1 Model comparation
+## 4.1 Model comparison
 After comparing the performance of seven models, Linear SVM has the highest acuuracy, precision, recall and F-1 score.
 | Model         | Multinomial Navie Bayes | Perceptron | SVM | Decision Tree | Random Forest | BERT   |  LSTM   |
 | ------------- | ----------------------- | ---------- | ----|-------------- | ------------- | -----  | ------  |
