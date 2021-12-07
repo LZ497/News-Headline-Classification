@@ -94,7 +94,7 @@ Set the bach size is 15, and epoch is 2, and Huggingface's DistilBERT tokenizer 
 For our train datasets, the loss: 0.62453, f1-score: 0.80974, accuracy: 0.80984, precision: 0.81017, recall: 0.80979. 
 For our test datasets, the loss: 0.68415, f1-score: 0.78636, accuracy: 0.78646, precision: 0.78738, recall: 0.78632.  
 
-We could use the projetor to this interpret and visualize the embeddings. The dashboard allows users to search for specific terms, and highlights words that are adjacent to each other in the embedding (low-dimensional) space. 
+We could use the projetor to interpret and visualize the embeddings. The dashboard allows users to search for specific terms, and highlights words that are adjacent to each other in the embedding (low-dimensional) space. 
 ![image](https://github.com/zhanglu980608/NLP-Final-Project/blob/main/pics/%20bert.gif)
 
 ## 3.7 LSTM
