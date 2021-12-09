@@ -99,8 +99,8 @@ We could use the projetor to interpret and visualize the embeddings. The dashboa
 
 ## 3.7 LSTM
 Long short term memory is a special RNN model, which is effective in memorizing important information. We could find that other non-neural network classification techniques they are trained on multiple word as separate inputs that are just word having no actual meaning as a sentence, and while predicting the class it will give the output according to statistics and not according to meaning. That means, every single word is classified into one of the categories.However, in LSTM we can use a multiple word string to find out the class to which it belongs. This is very helpful while working with Natural language processing. If we use appropriate layers of embedding and encoding in LSTM, the model will be able to find out the actual meaning in input string and will give the most accurate output class. It can also mainly to solve the problems of gradient disappearance and gradient explosion in the process of long sequence training. In short, LSTM usually can perform better in longer sequences than ordinary RNN and other non-neural network classification techniques.  
-  
-<img width="500" height="200" src="https://github.com/zhanglu980608/NLP-Final-Project/blob/main/pics/lstm_theory.png">
+ <div align='center'>
+<img width="500" height="280" src="https://github.com/zhanglu980608/NLP-Final-Project/blob/main/pics/lstm_theory.png"></div>
 
 LSTM is an updated version of Recurrent Neural Network to overcome the vanishing gradient problem. Below is the architecture of LSTM with an explanation.
 It has a memory cell at the top which helps to carry the information from a particular time instance to the next time instance in an efficient manner. So, it can able to remember a lot of information from previous states when compared to RNN and overcomes the vanishing gradient problem. Information might be added or removed from the memory cell with the help of valves.
