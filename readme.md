@@ -1,5 +1,5 @@
 # News Headline Classification 
-Team members: Keqin Liu(kl972), Linpei Zhang(lz487), Lu Zhang (lz468)
+Team members: Keqin Liu(kl972), Linpei Zhang(lz497), Lu Zhang (lz468)
 ## 1.Introduction
 Text classification is a machine learning technique used to assign text documents into one or more classes, among a predefined set of classes. A text classification system would be able to classify each document to its correct class based on inherent properties of the text successfully. <br>
 In this project, we would like to explore the application of text classification in news headline classification from mainstream media sources, and further perform analyses on different news classifications to predict label assigning for news headlines.
